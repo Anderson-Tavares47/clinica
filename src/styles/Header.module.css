@@ -1,0 +1,46 @@
+.header {
+  text-align: center;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid black;
+  padding: 0 2rem 0 2rem;
+}
+
+.leftOptions{
+  padding-left: 20px;
+  display: flex;
+  font-size: 25px;
+} 
+
+.leftOptions :hover{
+  color: rgb(159, 141, 40);
+  cursor: pointer;
+}
+
+.leftOptions p{
+  padding-left: 15px;
+}
+
+.rightOptions {
+  padding-right: 20px;
+  display: flex;
+  font-size: 25px;
+}
+
+.rightOptions :hover{
+  color: rgb(159, 141, 40);
+  cursor: pointer;
+}
+
+.rightOptions p{
+  padding-left: 15px;
+}
+
+.logo {
+  font-weight: bold;
+}

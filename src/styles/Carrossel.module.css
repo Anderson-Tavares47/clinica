@@ -1,0 +1,36 @@
+/* Carrossel.module.css */
+
+.slide {
+  position: relative;
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  color: rgb(159, 141, 40);
+}
+
+.conteudo {
+  position: absolute;
+  top: 100%;
+  left: 33%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+  transition: top 0.5s ease-in-out;
+}
+
+.slide:hover .conteudo {
+  top: -5%; /* Move o conteúdo para cima ao passar o mouse */
+}
+
+.conteudo h2 {
+  font-size: 75px;
+}
+
+.conteudo li {
+  font-size: 35px;
+}
+
+.conteudo p{
+  font-size: 35px;
+}

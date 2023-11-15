@@ -1,0 +1,31 @@
+/* DivComImagemETexto.module.css */
+
+.container {
+    display: flex;
+    align-items: flex-start; /* Alinha ao topo verticalmente */
+    background-color: white;
+    padding: 20px 170px 20px 210px;
+  }
+  
+  .imagem {
+    margin-right: 20px; /* Ajuste a margem conforme necessário */
+    padding-top: 55px;
+  }
+  
+  .conteudo {
+    margin-top: 20px; /* Ajuste a margem superior conforme necessário */
+    color: rgb(159, 141, 40);
+    font-size: 1.8rem;
+  }
+  
+  @media (max-width: 1500px) {
+    /* Ajuste o tamanho da fonte para telas menores */
+    .conteudo {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .texto {
+    font-size: 2.0rem;
+  }
+  

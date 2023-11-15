@@ -1,0 +1,32 @@
+/* WhatsAppButton.module.css */
+
+.cardContainer {
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+  }
+  
+  .card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card p {
+    color: black;
+    font-size: 1.8rem;
+    transition: color 0.3s;
+  }
+  
+  .card:hover p {
+    color: rgb(159, 141, 40);
+  }
+  
+ .card button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(159, 141, 40);
+    color: white;
+  }
+  

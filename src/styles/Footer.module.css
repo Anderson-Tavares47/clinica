@@ -1,0 +1,23 @@
+/* styles.module.css */
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .logo p,
+  .rights p {
+    margin: 0;
+    color: rgb(159, 141, 40);
+    font-size: 25px;
+  }
+  
+  
